@@ -1,0 +1,13 @@
+[package]
+name = "de-syn"
+version = "114.514.1919-810"
+authors = ["ICEY <icey@icey.tech>"]
+description = "哼，哼，啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊"
+edition = "2018"
+publish = false
+
+[dependencies]
+syn = { version = "1", features = ["full"] }
+
+[lib]
+proc-macro = true
